@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Bayline",
+    "slug": "bayline",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/icon.png"
+    },
+    "android": {
+      "package": "com.sravanyandapalli.bayline",
+      "icon": "./assets/icon.png"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6758164e-f49c-4564-a669-53e23ee4b907"
+      }
+    },
+    "owner": "bayline"
+  }
+}
